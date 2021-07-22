@@ -11,5 +11,8 @@
     "url": "https://github.com/seannbannon/twitter.bot"
   },
   "author": "Sean Bannon",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
 }
