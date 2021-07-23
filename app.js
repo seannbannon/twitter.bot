@@ -5,7 +5,7 @@ var T = new Twitter(config);
 
 // Set up your search parameters
 var params = {
-  q: '#nodejs',
+  q: '#america',
   count: 10,
   result_type: 'recent',
   lang: 'en'
@@ -23,7 +23,10 @@ T.get('search/tweets', params, function(err, data, response) {
       T.post('favorites/create', id, function(err, response){
         // If the favorite fails, log the error message
         if(err){
-          console.log(err[0].message);
+          console.log(err.message);
+
+//   console.log('Try Favorite - ', err.message);
+
         }
         // If the favorite is successful, log the url of the tweet
         else{
