@@ -13,6 +13,7 @@
   "author": "Sean Bannon",
   "license": "MIT",
   "dependencies": {
+    "twit": "^2.2.11",
     "twitter": "^1.7.1"
   }
 }
